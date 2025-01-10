@@ -1,0 +1,586 @@
+(base) C:\Users\Admin>conda update --all
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Admin\anaconda3
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _anaconda_depends-2024.10  |      py311_mkl_0          99 KB
+    aiobotocore-2.12.3         |  py311haa95532_0         156 KB
+    aiohappyeyeballs-2.4.4     |  py311haa95532_0          28 KB
+    aiohttp-3.11.10            |  py311h827c3e9_0         907 KB
+    alabaster-0.7.16           |  py311haa95532_0          20 KB
+    anaconda-anon-usage-0.5.0  |py311hfc23b7f_100          32 KB
+    anaconda-cli-base-0.4.1    |  py311haa95532_1          56 KB
+    anaconda-client-1.13.0     |  py311haa95532_0         864 KB
+    anaconda-cloud-auth-0.7.2  |  py311haa95532_0          65 KB
+    anaconda-navigator-2.6.4   |  py311haa95532_0         5.2 MB
+    annotated-types-0.6.0      |  py311haa95532_0          26 KB
+    anyio-4.6.2                |  py311haa95532_0         253 KB
+    arrow-1.3.0                |  py311haa95532_0         187 KB
+    astroid-3.2.4              |  py311haa95532_0         668 KB
+    astropy-6.1.3              |  py311h827c3e9_0        12.2 MB
+    astropy-iers-data-0.2024.9.2.0.33.23|  py311haa95532_0         1.6 MB
+    asyncssh-2.17.0            |  py311haa95532_0         863 KB
+    attrs-24.3.0               |  py311haa95532_0         176 KB
+    autopep8-2.0.4             |     pyhd3eb1b0_0          44 KB
+    backports-1.1              |     pyhd3eb1b0_1           6 KB
+    beautifulsoup4-4.12.3      |  py311haa95532_0         273 KB
+    black-24.8.0               |  py311haa95532_0         413 KB
+    bleach-6.2.0               |  py311haa95532_0         367 KB
+    bokeh-3.6.0                |  py311haa95532_0         5.7 MB
+    botocore-1.34.69           |  py311haa95532_0         7.3 MB
+    bottleneck-1.4.2           |  py311h57dcf0c_0         146 KB
+    brotli-1.0.9               |       h2bbff1b_8          19 KB
+    brotli-bin-1.0.9           |       h2bbff1b_8          29 KB
+    brotli-python-1.0.9        |  py311hd77b12b_8         347 KB
+    bzip2-1.0.8                |       h2bbff1b_6          90 KB
+    cachetools-5.3.3           |  py311haa95532_0          30 KB
+    cffi-1.17.1                |  py311h827c3e9_0         319 KB
+    charset-normalizer-3.3.2   |     pyhd3eb1b0_0          44 KB
+    cloudpickle-3.0.0          |  py311haa95532_0          41 KB
+    colorcet-3.1.0             |  py311haa95532_0         614 KB
+    comm-0.2.1                 |  py311haa95532_0          17 KB
+    conda-build-24.11.2        |  py311haa95532_0         802 KB
+    conda-content-trust-0.2.0  |  py311haa95532_1          92 KB
+    conda-index-0.5.0          |  py311haa95532_0         240 KB
+    conda-libmamba-solver-24.11.1|     pyhd3eb1b0_0          39 KB
+    conda-pack-0.7.1           |  py311haa95532_0          89 KB
+    conda-package-handling-2.4.0|  py311haa95532_0         314 KB
+    conda-package-streaming-0.11.0|  py311haa95532_0          37 KB
+    conda-repo-cli-1.0.137     |  py311haa95532_0         237 KB
+    conda-token-0.5.0          |     pyhd3eb1b0_0          11 KB
+    console_shortcut-0.1.1     |       haa95532_6          22 KB
+    contourpy-1.3.1            |  py311h214f63a_0         232 KB
+    cookiecutter-2.6.0         |  py311haa95532_0         161 KB
+    cpp-expected-1.1.0         |       h214f63a_0         131 KB
+    cryptography-43.0.3        |  py311hbd6ee87_1         1.3 MB
+    curl-8.11.1                |       h51539b2_0         181 KB
+    dask-2024.8.2              |  py311haa95532_0           7 KB
+    dask-core-2024.8.2         |  py311haa95532_0         3.1 MB
+    dask-expr-1.1.13           |  py311haa95532_0         567 KB
+    datashader-0.16.3          |  py311haa95532_0        17.2 MB
+    deprecated-1.2.13          |  py311haa95532_0          18 KB
+    dill-0.3.8                 |  py311haa95532_0         263 KB
+    distributed-2024.8.2       |  py311haa95532_0         1.7 MB
+    distro-1.9.0               |  py311haa95532_0          61 KB
+    flake8-7.1.1               |  py311haa95532_0         146 KB
+    flask-3.0.3                |  py311haa95532_0         239 KB
+    fmt-9.1.0                  |       h6d14046_1         200 KB
+    fonttools-4.51.0           |  py311h2bbff1b_0         2.6 MB
+    frozenlist-1.5.0           |  py311h827c3e9_0          61 KB
+    fsspec-2024.6.1            |  py311haa95532_0         384 KB
+    future-1.0.0               |  py311haa95532_0         920 KB
+    gensim-4.3.3               |  py311hea22821_0        42.4 MB
+    giflib-5.2.2               |       h7edc060_0         105 KB
+    gitpython-3.1.43           |  py311haa95532_0         373 KB
+    greenlet-3.1.1             |  py311h5da7b33_0         240 KB
+    h11-0.14.0                 |  py311haa95532_0         118 KB
+    h5py-3.12.1                |  py311h3b2c811_0         1.2 MB
+    holoviews-1.20.0           |  py311haa95532_0         5.9 MB
+    httpcore-1.0.2             |  py311haa95532_0         118 KB
+    httpx-0.27.0               |  py311haa95532_0         235 KB
+    hvplot-0.11.2              |  py311haa95532_0         366 KB
+    idna-3.7                   |  py311haa95532_0         133 KB
+    imagecodecs-2024.9.22      |  py311hacb3832_0        10.1 MB
+    imbalanced-learn-0.12.3    |  py311haa95532_1         425 KB
+    importlib-metadata-8.5.0   |  py311haa95532_0          54 KB
+    importlib_metadata-8.5.0   |       hd3eb1b0_0           9 KB
+    intake-2.0.7               |  py311haa95532_0         301 KB
+    ipykernel-6.29.5           |  py311haa95532_0         254 KB
+    ipython-8.30.0             |  py311haa95532_0         1.5 MB
+    ipywidgets-8.1.5           |  py311haa95532_0         259 KB
+    isort-5.13.2               |  py311haa95532_0         355 KB
+    itsdangerous-2.2.0         |  py311haa95532_0          37 KB
+    jedi-0.19.2                |  py311haa95532_0         1.2 MB
+    jellyfish-1.0.1            |  py311h8ecf97c_1         230 KB
+    jinja2-3.1.4               |  py311haa95532_1         363 KB
+    joblib-1.4.2               |  py311haa95532_0         531 KB
+    jpeg-9e                    |       h827c3e9_3         334 KB
+    json5-0.9.25               |  py311haa95532_0          82 KB
+    jsonpatch-1.33             |  py311haa95532_1          63 KB
+    jsonschema-4.23.0          |  py311haa95532_0         229 KB
+    jupyter_core-5.7.2         |  py311haa95532_0         126 KB
+    jupyter_events-0.10.0      |  py311haa95532_0          67 KB
+    jupyter_server-2.14.1      |  py311haa95532_0         626 KB
+    jupyterlab-4.2.5           |  py311haa95532_0         5.5 MB
+    jupyterlab_server-2.27.3   |  py311haa95532_0         114 KB
+    jupyterlab_widgets-3.0.13  |  py311haa95532_0         195 KB
+    keyring-24.3.1             |  py311haa95532_0         100 KB
+    lazy-object-proxy-1.10.0   |  py311h2bbff1b_0          39 KB
+    lazy_loader-0.4            |  py311haa95532_0          25 KB
+    lcms2-2.16                 |       hb4a4139_0         566 KB
+    lerc-4.0.0                 |       h5da7b33_0         185 KB
+    libaec-1.1.3               |       hcdb6601_0          59 KB
+    libarchive-3.7.7           |       h9243413_0         1.8 MB
+    libavif-1.1.1              |       h827c3e9_0         1.9 MB
+    libbrotlicommon-1.0.9      |       h2bbff1b_8          79 KB
+    libbrotlidec-1.0.9         |       h2bbff1b_8          39 KB
+    libbrotlienc-1.0.9         |       h2bbff1b_8         261 KB
+    libclang-14.0.6            |default_hb5a9fac_2         152 KB
+    libclang13-14.0.6          |default_h8e68704_2        22.6 MB
+    libcurl-8.11.1             |       haff574d_0         382 KB
+    libdeflate-1.22            |       h5bf469e_0         180 KB
+    libffi-3.4.4               |       hd77b12b_1         122 KB
+    libiconv-1.16              |       h2bbff1b_3         685 KB
+    libmamba-2.0.5             |       hcd6fe79_1         4.7 MB
+    libmambapy-2.0.5           |  py311h214f63a_1         461 KB
+    libpq-17.2                 |       h70ee33d_0         4.2 MB
+    libsolv-0.7.30             |       hf2fb9eb_1         473 KB
+    libssh2-1.11.1             |       h2addb87_0         312 KB
+    libtiff-4.5.1              |       h44ae7cf_1         1.0 MB
+    libwebp-base-1.3.2         |       h3d04722_1         303 KB
+    libxml2-2.13.5             |       h24da03e_0         2.9 MB
+    libxslt-1.1.41             |       h0739af5_0         467 KB
+    llvmlite-0.43.0            |  py311hf2fb9eb_0        18.6 MB
+    lxml-5.3.0                 |  py311h395c83e_0         1.2 MB
+    lz4-c-1.9.4                |       h2bbff1b_1         152 KB
+    matplotlib-3.9.2           |  py311haa95532_1           8 KB
+    matplotlib-base-3.9.2      |  py311he19b0ae_1         9.8 MB
+    menuinst-2.2.0             |  py311h5da7b33_0         229 KB
+    mkl_fft-1.3.11             |  py311h827c3e9_0         176 KB
+    mkl_random-1.2.8           |  py311hea22821_0         266 KB
+    more-itertools-10.3.0      |  py311haa95532_0         145 KB
+    multidict-6.1.0            |  py311h827c3e9_0          63 KB
+    mypy-1.11.2                |  py311h827c3e9_0         9.0 MB
+    navigator-updater-0.5.1    |  py311haa95532_0         2.3 MB
+    nbconvert-7.16.4           |  py311haa95532_0         543 KB
+    nbformat-5.10.4            |  py311haa95532_0         189 KB
+    networkx-3.3               |  py311haa95532_0         3.1 MB
+    nlohmann_json-3.11.2       |       h6c2663c_0         126 KB
+    nltk-3.9.1                 |  py311haa95532_0         2.8 MB
+    notebook-7.2.2             |  py311haa95532_1         4.0 MB
+    numba-0.60.0               |  py311hea22821_0         5.9 MB
+    numexpr-2.10.1             |  py311h4cd664f_0         207 KB
+    numpydoc-1.7.0             |  py311haa95532_0         206 KB
+    openjpeg-2.5.2             |       hae555c5_0         268 KB
+    openpyxl-3.1.5             |  py311h827c3e9_0         678 KB
+    packaging-24.2             |  py311haa95532_0         200 KB
+    pandas-2.2.3               |  py311h5da7b33_0        14.7 MB
+    panel-1.5.3                |  py311haa95532_0        21.1 MB
+    param-2.2.0                |  py311haa95532_0         273 KB
+    paramiko-3.5.0             |  py311haa95532_0         381 KB
+    parso-0.8.4                |  py311haa95532_0         245 KB
+    patsy-0.5.6                |  py311haa95532_0         364 KB
+    pcre2-10.42                |       h0ff8eda_1         728 KB
+    pillow-11.0.0              |  py311h096bfcc_1         927 KB
+    pip-24.2                   |  py311haa95532_0         3.0 MB
+    pkginfo-1.11.2             |  py311haa95532_0          97 KB
+    plotly-5.24.1              |  py311h746a85d_0        10.2 MB
+    pluggy-1.5.0               |  py311haa95532_0          48 KB
+    powershell_shortcut-0.0.1  |       haa95532_4          29 KB
+    prometheus_client-0.21.0   |  py311haa95532_0         127 KB
+    propcache-0.2.0            |  py311h827c3e9_0          56 KB
+    pybind11-abi-5             |       hd3eb1b0_0          14 KB
+    pycodestyle-2.12.1         |  py311haa95532_0         105 KB
+    pycosat-0.6.6              |  py311h2bbff1b_1          94 KB
+    pycurl-7.45.3              |  py311h3f729d1_0         152 KB
+    pydantic-2.10.3            |  py311haa95532_0         858 KB
+    pydantic-core-2.27.1       |  py311h636fa0f_0         1.8 MB
+    pydantic-settings-2.6.1    |  py311haa95532_0          79 KB
+    pydeck-0.7.1               |  py311haa95532_0         1.6 MB
+    pyerfa-2.0.1.4             |  py311h57dcf0c_0         403 KB
+    pyflakes-3.2.0             |  py311haa95532_0         173 KB
+    pygithub-2.4.0             |  py311haa95532_0         1.8 MB
+    pyjwt-2.9.0                |  py311haa95532_0          87 KB
+    pylint-3.2.7               |  py311haa95532_0         1.4 MB
+    pylint-venv-3.0.3          |  py311haa95532_0          13 KB
+    pympler-0.9                |             py_0         160 KB
+    pyodbc-5.1.0               |  py311h5da7b33_0          75 KB
+    pyopenssl-24.2.1           |  py311haa95532_0         122 KB
+    pyparsing-3.2.0            |  py311haa95532_0         480 KB
+    pytables-3.10.1            |  py311hddc5ca2_0         2.1 MB
+    pytest-7.4.4               |  py311haa95532_0         1.2 MB
+    python-dateutil-2.9.0post0 |  py311haa95532_2         324 KB
+    python-fastjsonschema-2.20.0|  py311haa95532_0         263 KB
+    python-json-logger-3.2.1   |  py311haa95532_0          29 KB
+    python-libarchive-c-5.1    |     pyhd3eb1b0_0          50 KB
+    python-lsp-black-2.0.0     |  py311haa95532_0          17 KB
+    python-lsp-jsonrpc-1.1.2   |     pyhd3eb1b0_0          12 KB
+    python-lsp-server-1.12.0   |  py311h746a85d_0         214 KB
+    pytz-2024.1                |  py311haa95532_0         223 KB
+    pyuca-1.2                  |  py311haa95532_1         728 KB
+    pyviz_comms-3.0.2          |  py311haa95532_0          57 KB
+    pywavelets-1.7.0           |  py311h827c3e9_0         3.6 MB
+    pywin32-ctypes-0.2.2       |  py311haa95532_0          56 KB
+    pywinpty-2.0.14            |  py311h72d21ff_0         232 KB
+    pyyaml-6.0.2               |  py311h827c3e9_0         205 KB
+    pyzmq-26.2.0               |  py311h5da7b33_0         389 KB
+    qdarkstyle-3.2.3           |     pyhd3eb1b0_0         615 KB
+    qt-main-5.15.2             |      h19c9488_11        60.2 MB
+    qtawesome-1.3.1            |  py311haa95532_0         1.7 MB
+    qtconsole-5.6.0            |  py311haa95532_0         294 KB
+    readchar-4.0.5             |  py311haa95532_0          17 KB
+    regex-2024.9.11            |  py311h827c3e9_0         401 KB
+    reproc-14.2.4              |       hd77b12b_2          40 KB
+    reproc-cpp-14.2.4          |       hd77b12b_2          34 KB
+    requests-2.32.3            |  py311haa95532_1         128 KB
+    rich-13.9.4                |  py311haa95532_0         639 KB
+    rope-1.12.0                |  py311haa95532_0         596 KB
+    rpds-py-0.10.6             |  py311h636fa0f_1         205 KB
+    ruamel.yaml-0.18.6         |  py311h827c3e9_0         278 KB
+    ruamel.yaml.clib-0.2.8     |  py311h827c3e9_0         126 KB
+    s3fs-2024.6.1              |  py311haa95532_0          80 KB
+    scikit-image-0.24.0        |  py311hea22821_0        10.3 MB
+    scipy-1.13.1               |  py311h9f229c6_1        24.1 MB
+    scrapy-2.12.0              |  py311haa95532_0         907 KB
+    seaborn-0.13.2             |  py311haa95532_0         731 KB
+    semver-3.0.2               |  py311haa95532_0         101 KB
+    setuptools-75.1.0          |  py311haa95532_0         2.2 MB
+    shellingham-1.5.0          |  py311haa95532_0          21 KB
+    simdjson-3.10.1            |       h214f63a_0         275 KB
+    snappy-1.2.1               |       hcdb6601_0         108 KB
+    spdlog-1.11.0              |       h59b6b97_0         195 KB
+    sphinx-7.3.7               |  py311h827c3e9_0         2.9 MB
+    sphinxcontrib-serializinghtml-1.1.10|  py311haa95532_0          33 KB
+    spyder-6.0.1               |  py311haa95532_0        10.7 MB
+    spyder-kernels-3.0.0       |  py311h746a85d_0         558 KB
+    sqlalchemy-2.0.34          |  py311h54f65d0_0         6.6 MB
+    sqlite-3.45.3              |       h2bbff1b_0         973 KB
+    statsmodels-0.14.4         |  py311h827c3e9_0        11.9 MB
+    streamlit-1.16.0           |  py311haa95532_0         6.9 MB
+    superqt-0.6.7              |  py311h746a85d_0         217 KB
+    sympy-1.13.3               |  py311haa95532_0        15.5 MB
+    tenacity-9.0.0             |  py311haa95532_0          67 KB
+    textdistance-4.6.3         |  py311h746a85d_0          77 KB
+    tifffile-2024.12.12        |  py311haa95532_0         558 KB
+    tk-8.6.14                  |       h0416ee5_0         3.5 MB
+    tldextract-5.1.2           |  py311haa95532_0         153 KB
+    tomli-2.0.1                |  py311haa95532_0          31 KB
+    tomlkit-0.13.2             |  py311haa95532_0         115 KB
+    tornado-6.4.2              |  py311h827c3e9_0         896 KB
+    tqdm-4.66.5                |  py311h746a85d_0         190 KB
+    traitlets-5.14.3           |  py311haa95532_0         226 KB
+    typer-0.9.0                |  py311haa95532_0         115 KB
+    typing-extensions-4.12.2   |  py311haa95532_0          10 KB
+    typing_extensions-4.12.2   |  py311haa95532_0          82 KB
+    tzdata-2024b               |       h04d1e81_0         115 KB
+    tzlocal-5.2                |  py311haa95532_0          44 KB
+    ujson-5.10.0               |  py311h5da7b33_0         146 KB
+    unicodedata2-15.1.0        |  py311h2bbff1b_0         521 KB
+    unidecode-1.3.8            |  py311haa95532_0         306 KB
+    urllib3-2.2.3              |  py311haa95532_0         233 KB
+    watchdog-4.0.1             |  py311haa95532_0         185 KB
+    websocket-client-1.8.0     |  py311haa95532_0         147 KB
+    werkzeug-3.0.6             |  py311haa95532_0         414 KB
+    wheel-0.44.0               |  py311haa95532_0         173 KB
+    widgetsnbextension-4.0.13  |  py311haa95532_0         949 KB
+    xarray-2024.11.0           |  py311haa95532_0         2.8 MB
+    xlwings-0.32.1             |  py311haa95532_0         1.3 MB
+    xz-5.4.6                   |       h8cc25b3_1         609 KB
+    yaml-cpp-0.8.0             |       hd77b12b_1         2.1 MB
+    yapf-0.40.2                |  py311haa95532_0         492 KB
+    yarl-1.18.0                |  py311h827c3e9_0         157 KB
+    zipp-3.21.0                |  py311haa95532_0          31 KB
+    zlib-1.2.13                |       h8cc25b3_1         131 KB
+    zope.interface-7.1.1       |  py311h827c3e9_0         419 KB
+    zstandard-0.23.0           |  py311h4fc1ca9_1         354 KB
+    zstd-1.5.6                 |       h8880b57_0         708 KB
+    ------------------------------------------------------------
+                                           Total:       498.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  aiohappyeyeballs   pkgs/main/win-64::aiohappyeyeballs-2.4.4-py311haa95532_0
+  anaconda-cli-base  pkgs/main/win-64::anaconda-cli-base-0.4.1-py311haa95532_1
+  annotated-types    pkgs/main/win-64::annotated-types-0.6.0-py311haa95532_0
+  astropy-iers-data  pkgs/main/win-64::astropy-iers-data-0.2024.9.2.0.33.23-py311haa95532_0
+  asyncssh           pkgs/main/win-64::asyncssh-2.17.0-py311haa95532_0
+  cpp-expected       pkgs/main/win-64::cpp-expected-1.1.0-h214f63a_0
+  dask-expr          pkgs/main/win-64::dask-expr-1.1.13-py311haa95532_0
+  deprecated         pkgs/main/win-64::deprecated-1.2.13-py311haa95532_0
+  h11                pkgs/main/win-64::h11-0.14.0-py311haa95532_0
+  httpcore           pkgs/main/win-64::httpcore-1.0.2-py311haa95532_0
+  httpx              pkgs/main/win-64::httpx-0.27.0-py311haa95532_0
+  nlohmann_json      pkgs/main/win-64::nlohmann_json-3.11.2-h6c2663c_0
+  propcache          pkgs/main/win-64::propcache-0.2.0-py311h827c3e9_0
+  pydantic-core      pkgs/main/win-64::pydantic-core-2.27.1-py311h636fa0f_0
+  pydantic-settings  pkgs/main/win-64::pydantic-settings-2.6.1-py311haa95532_0
+  pygithub           pkgs/main/win-64::pygithub-2.4.0-py311haa95532_0
+  pympler            pkgs/main/noarch::pympler-0.9-py_0
+  pyuca              pkgs/main/win-64::pyuca-1.2-py311haa95532_1
+  readchar           pkgs/main/win-64::readchar-4.0.5-py311haa95532_0
+  ruamel.yaml.clib   pkgs/main/win-64::ruamel.yaml.clib-0.2.8-py311h827c3e9_0
+  shellingham        pkgs/main/win-64::shellingham-1.5.0-py311haa95532_0
+  simdjson           pkgs/main/win-64::simdjson-3.10.1-h214f63a_0
+  spdlog             pkgs/main/win-64::spdlog-1.11.0-h59b6b97_0
+  superqt            pkgs/main/win-64::superqt-0.6.7-py311h746a85d_0
+  tomli              pkgs/main/win-64::tomli-2.0.1-py311haa95532_0
+  typer              pkgs/main/win-64::typer-0.9.0-py311haa95532_0
+  unicodedata2       pkgs/main/win-64::unicodedata2-15.1.0-py311h2bbff1b_0
+
+The following packages will be UPDATED:
+
+  _anaconda_depends                     2024.02-py311_mkl_1 --> 2024.10-py311_mkl_0
+  aiobotocore                         2.7.0-py311haa95532_0 --> 2.12.3-py311haa95532_0
+  aiohttp                             3.9.3-py311h2bbff1b_0 --> 3.11.10-py311h827c3e9_0
+  alabaster          pkgs/main/noarch::alabaster-0.7.12-py~ --> pkgs/main/win-64::alabaster-0.7.16-py311haa95532_0
+  anaconda-anon-usa~                0.4.3-py311hfc23b7f_100 --> 0.5.0-py311hfc23b7f_100
+  anaconda-client                    1.12.3-py311haa95532_0 --> 1.13.0-py311haa95532_0
+  anaconda-cloud-au~                  0.1.4-py311haa95532_0 --> 0.7.2-py311haa95532_0
+  anaconda-navigator                  2.5.2-py311haa95532_0 --> 2.6.4-py311haa95532_0
+  anyio                               4.2.0-py311haa95532_0 --> 4.6.2-py311haa95532_0
+  arrow                               1.2.3-py311haa95532_1 --> 1.3.0-py311haa95532_0
+  astroid                            2.14.2-py311haa95532_0 --> 3.2.4-py311haa95532_0
+  astropy                             5.3.4-py311hd7041d2_0 --> 6.1.3-py311h827c3e9_0
+  attrs                              23.1.0-py311haa95532_0 --> 24.3.0-py311haa95532_0
+  autopep8                               1.6.0-pyhd3eb1b0_1 --> 2.0.4-pyhd3eb1b0_0
+  backports                                1.1-pyhd3eb1b0_0 --> 1.1-pyhd3eb1b0_1
+  beautifulsoup4                     4.12.2-py311haa95532_0 --> 4.12.3-py311haa95532_0
+  black                             23.11.0-py311haa95532_0 --> 24.8.0-py311haa95532_0
+  bleach             pkgs/main/noarch::bleach-4.1.0-pyhd3e~ --> pkgs/main/win-64::bleach-6.2.0-py311haa95532_0
+  bokeh                               3.3.4-py311h746a85d_0 --> 3.6.0-py311haa95532_0
+  botocore                          1.31.64-py311haa95532_0 --> 1.34.69-py311haa95532_0
+  bottleneck                          1.3.7-py311hd7041d2_0 --> 1.4.2-py311h57dcf0c_0
+  brotli                                   1.0.9-h2bbff1b_7 --> 1.0.9-h2bbff1b_8
+  brotli-bin                               1.0.9-h2bbff1b_7 --> 1.0.9-h2bbff1b_8
+  brotli-python                       1.0.9-py311hd77b12b_7 --> 1.0.9-py311hd77b12b_8
+  bzip2                                    1.0.8-he774522_0 --> 1.0.8-h2bbff1b_6
+  cachetools         pkgs/main/noarch::cachetools-4.2.2-py~ --> pkgs/main/win-64::cachetools-5.3.3-py311haa95532_0
+  cffi                               1.16.0-py311h2bbff1b_0 --> 1.17.1-py311h827c3e9_0
+  charset-normalizer                     2.0.4-pyhd3eb1b0_0 --> 3.3.2-pyhd3eb1b0_0
+  cloudpickle                         2.2.1-py311haa95532_0 --> 3.0.0-py311haa95532_0
+  colorcet                            3.0.1-py311haa95532_0 --> 3.1.0-py311haa95532_0
+  comm                                0.1.2-py311haa95532_0 --> 0.2.1-py311haa95532_0
+  conda-build                        24.1.2-py311haa95532_0 --> 24.11.2-py311haa95532_0
+  conda-content-tru~                  0.2.0-py311haa95532_0 --> 0.2.0-py311haa95532_1
+  conda-index        pkgs/main/noarch::conda-index-0.4.0-p~ --> pkgs/main/win-64::conda-index-0.5.0-py311haa95532_0
+  conda-libmamba-so~                    24.1.0-pyhd3eb1b0_0 --> 24.11.1-pyhd3eb1b0_0
+  conda-pack         pkgs/main/noarch::conda-pack-0.6.0-py~ --> pkgs/main/win-64::conda-pack-0.7.1-py311haa95532_0
+  conda-package-han~                  2.2.0-py311haa95532_0 --> 2.4.0-py311haa95532_0
+  conda-package-str~                  0.9.0-py311haa95532_0 --> 0.11.0-py311haa95532_0
+  conda-repo-cli                     1.0.75-py311haa95532_0 --> 1.0.137-py311haa95532_0
+  conda-token                            0.4.0-pyhd3eb1b0_0 --> 0.5.0-pyhd3eb1b0_0
+  console_shortcut                                  0.1.1-4 --> 0.1.1-haa95532_6
+  contourpy                           1.2.0-py311h59b6b97_0 --> 1.3.1-py311h214f63a_0
+  cookiecutter                        2.5.0-py311haa95532_0 --> 2.6.0-py311haa95532_0
+  cryptography                       42.0.2-py311h89fc84f_0 --> 43.0.3-py311hbd6ee87_1
+  curl                                     8.5.0-he2ea4bf_0 --> 8.11.1-h51539b2_0
+  dask                            2023.11.0-py311haa95532_0 --> 2024.8.2-py311haa95532_0
+  dask-core                       2023.11.0-py311haa95532_0 --> 2024.8.2-py311haa95532_0
+  datashader                         0.16.0-py311haa95532_0 --> 0.16.3-py311haa95532_0
+  dill                                0.3.7-py311haa95532_0 --> 0.3.8-py311haa95532_0
+  distributed                     2023.11.0-py311haa95532_0 --> 2024.8.2-py311haa95532_0
+  distro                              1.8.0-py311haa95532_0 --> 1.9.0-py311haa95532_0
+  flake8                              6.0.0-py311haa95532_0 --> 7.1.1-py311haa95532_0
+  flask                               2.2.5-py311haa95532_0 --> 3.0.3-py311haa95532_0
+  fmt                                      9.1.0-h6d14046_0 --> 9.1.0-h6d14046_1
+  fonttools          pkgs/main/noarch::fonttools-4.25.0-py~ --> pkgs/main/win-64::fonttools-4.51.0-py311h2bbff1b_0
+  frozenlist                          1.4.0-py311h2bbff1b_0 --> 1.5.0-py311h827c3e9_0
+  fsspec                          2023.10.0-py311haa95532_0 --> 2024.6.1-py311haa95532_0
+  future                             0.18.3-py311haa95532_0 --> 1.0.0-py311haa95532_0
+  gensim                              4.3.0-py311heda8569_0 --> 4.3.3-py311hea22821_0
+  giflib                                   5.2.1-h8cc25b3_3 --> 5.2.2-h7edc060_0
+  gitpython                          3.1.37-py311haa95532_0 --> 3.1.43-py311haa95532_0
+  greenlet                            3.0.1-py311hd77b12b_0 --> 3.1.1-py311h5da7b33_0
+  h5py                                3.9.0-py311h4e0e482_0 --> 3.12.1-py311h3b2c811_0
+  holoviews                          1.18.3-py311haa95532_0 --> 1.20.0-py311haa95532_0
+  hvplot                              0.9.2-py311haa95532_0 --> 0.11.2-py311haa95532_0
+  idna                                  3.4-py311haa95532_0 --> 3.7-py311haa95532_0
+  imagecodecs                     2023.1.23-py311he6ff3c7_0 --> 2024.9.22-py311hacb3832_0
+  imbalanced-learn                   0.11.0-py311haa95532_1 --> 0.12.3-py311haa95532_1
+  importlib-metadata                  7.0.1-py311haa95532_0 --> 8.5.0-py311haa95532_0
+  importlib_metadata                       7.0.1-hd3eb1b0_0 --> 8.5.0-hd3eb1b0_0
+  intake                              0.6.8-py311haa95532_0 --> 2.0.7-py311haa95532_0
+  ipykernel                          6.28.0-py311haa95532_0 --> 6.29.5-py311haa95532_0
+  ipython                            8.20.0-py311haa95532_0 --> 8.30.0-py311haa95532_0
+  ipywidgets         pkgs/main/noarch::ipywidgets-7.6.5-py~ --> pkgs/main/win-64::ipywidgets-8.1.5-py311haa95532_0
+  isort              pkgs/main/noarch::isort-5.9.3-pyhd3eb~ --> pkgs/main/win-64::isort-5.13.2-py311haa95532_0
+  itsdangerous       pkgs/main/noarch::itsdangerous-2.0.1-~ --> pkgs/main/win-64::itsdangerous-2.2.0-py311haa95532_0
+  jedi                               0.18.1-py311haa95532_1 --> 0.19.2-py311haa95532_0
+  jellyfish                           1.0.1-py311h36a85e1_0 --> 1.0.1-py311h8ecf97c_1
+  jinja2                              3.1.3-py311haa95532_0 --> 3.1.4-py311haa95532_1
+  joblib                              1.2.0-py311haa95532_0 --> 1.4.2-py311haa95532_0
+  jpeg                                        9e-h2bbff1b_1 --> 9e-h827c3e9_3
+  json5              pkgs/main/noarch::json5-0.9.6-pyhd3eb~ --> pkgs/main/win-64::json5-0.9.25-py311haa95532_0
+  jsonpatch          pkgs/main/noarch::jsonpatch-1.32-pyhd~ --> pkgs/main/win-64::jsonpatch-1.33-py311haa95532_1
+  jsonschema                         4.19.2-py311haa95532_0 --> 4.23.0-py311haa95532_0
+  jupyter_core                        5.5.0-py311haa95532_0 --> 5.7.2-py311haa95532_0
+  jupyter_events                      0.8.0-py311haa95532_0 --> 0.10.0-py311haa95532_0
+  jupyter_server                     2.10.0-py311haa95532_0 --> 2.14.1-py311haa95532_0
+  jupyterlab                         4.0.11-py311haa95532_0 --> 4.2.5-py311haa95532_0
+  jupyterlab_server                  2.25.1-py311haa95532_0 --> 2.27.3-py311haa95532_0
+  jupyterlab_widgets                  3.0.9-py311haa95532_0 --> 3.0.13-py311haa95532_0
+  keyring                           23.13.1-py311haa95532_0 --> 24.3.1-py311haa95532_0
+  lazy-object-proxy                   1.6.0-py311h2bbff1b_0 --> 1.10.0-py311h2bbff1b_0
+  lazy_loader                           0.3-py311haa95532_0 --> 0.4-py311haa95532_0
+  lcms2                                     2.12-h83e58a3_0 --> 2.16-hb4a4139_0
+  lerc                                       3.0-hd77b12b_0 --> 4.0.0-h5da7b33_0
+  libaec                                   1.0.4-h33f27b4_1 --> 1.1.3-hcdb6601_0
+  libarchive                               3.6.2-hb62f4d4_2 --> 3.7.7-h9243413_0
+  libavif                                 0.11.1-h2bbff1b_0 --> 1.1.1-h827c3e9_0
+  libbrotlicommon                          1.0.9-h2bbff1b_7 --> 1.0.9-h2bbff1b_8
+  libbrotlidec                             1.0.9-h2bbff1b_7 --> 1.0.9-h2bbff1b_8
+  libbrotlienc                             1.0.9-h2bbff1b_7 --> 1.0.9-h2bbff1b_8
+  libclang                        14.0.6-default_hb5a9fac_1 --> 14.0.6-default_hb5a9fac_2
+  libclang13                      14.0.6-default_h8e68704_1 --> 14.0.6-default_h8e68704_2
+  libcurl                                  8.5.0-h86230a5_0 --> 8.11.1-haff574d_0
+  libdeflate                                1.17-h2bbff1b_1 --> 1.22-h5bf469e_0
+  libffi                                   3.4.4-hd77b12b_0 --> 3.4.4-hd77b12b_1
+  libiconv                                  1.16-h2bbff1b_2 --> 1.16-h2bbff1b_3
+  libmamba                                 1.5.6-hcd6fe79_0 --> 2.0.5-hcd6fe79_1
+  libmambapy                          1.5.6-py311h77c03ed_0 --> 2.0.5-py311h214f63a_1
+  libpq                                    12.17-h906ac69_0 --> 17.2-h70ee33d_0
+  libsolv                                 0.7.24-h23ce68f_0 --> 0.7.30-hf2fb9eb_1
+  libssh2                                 1.10.0-he2ea4bf_2 --> 1.11.1-h2addb87_0
+  libtiff                                  4.5.1-hd77b12b_0 --> 4.5.1-h44ae7cf_1
+  libwebp-base                             1.3.2-h2bbff1b_0 --> 1.3.2-h3d04722_1
+  libxml2                                 2.10.4-h0ad7f3c_1 --> 2.13.5-h24da03e_0
+  libxslt                                 1.1.37-h2bbff1b_1 --> 1.1.41-h0739af5_0
+  llvmlite                           0.42.0-py311hf2fb9eb_0 --> 0.43.0-py311hf2fb9eb_0
+  lxml                                4.9.3-py311h09808a7_0 --> 5.3.0-py311h395c83e_0
+  lz4-c                                    1.9.4-h2bbff1b_0 --> 1.9.4-h2bbff1b_1
+  matplotlib                          3.8.0-py311haa95532_0 --> 3.9.2-py311haa95532_1
+  matplotlib-base                     3.8.0-py311hf62ec03_0 --> 3.9.2-py311he19b0ae_1
+  menuinst                            2.0.2-py311hd77b12b_0 --> 2.2.0-py311h5da7b33_0
+  mkl_fft                             1.3.8-py311h2bbff1b_0 --> 1.3.11-py311h827c3e9_0
+  mkl_random                          1.2.4-py311h59b6b97_0 --> 1.2.8-py311hea22821_0
+  more-itertools                     10.1.0-py311haa95532_0 --> 10.3.0-py311haa95532_0
+  multidict                           6.0.4-py311h2bbff1b_0 --> 6.1.0-py311h827c3e9_0
+  mypy                                1.8.0-py311h2bbff1b_0 --> 1.11.2-py311h827c3e9_0
+  navigator-updater                   0.4.0-py311haa95532_1 --> 0.5.1-py311haa95532_0
+  nbconvert                          7.10.0-py311haa95532_0 --> 7.16.4-py311haa95532_0
+  nbformat                            5.9.2-py311haa95532_0 --> 5.10.4-py311haa95532_0
+  networkx                              3.1-py311haa95532_0 --> 3.3-py311haa95532_0
+  nltk                                3.8.1-py311haa95532_0 --> 3.9.1-py311haa95532_0
+  notebook                            7.0.8-py311haa95532_0 --> 7.2.2-py311haa95532_1
+  numba                              0.59.0-py311hf62ec03_0 --> 0.60.0-py311hea22821_0
+  numexpr                             2.8.7-py311h1fcbade_0 --> 2.10.1-py311h4cd664f_0
+  numpydoc                            1.5.0-py311haa95532_0 --> 1.7.0-py311haa95532_0
+  openjpeg                                 2.4.0-h4fc8c34_0 --> 2.5.2-hae555c5_0
+  openpyxl                           3.0.10-py311h2bbff1b_0 --> 3.1.5-py311h827c3e9_0
+  packaging                            23.1-py311haa95532_0 --> 24.2-py311haa95532_0
+  pandas                              2.1.4-py311hf62ec03_0 --> 2.2.3-py311h5da7b33_0
+  panel                               1.3.8-py311haa95532_0 --> 1.5.3-py311haa95532_0
+  param                               2.0.2-py311haa95532_0 --> 2.2.0-py311haa95532_0
+  paramiko           pkgs/main/noarch::paramiko-2.8.1-pyhd~ --> pkgs/main/win-64::paramiko-3.5.0-py311haa95532_0
+  parso              pkgs/main/noarch::parso-0.8.3-pyhd3eb~ --> pkgs/main/win-64::parso-0.8.4-py311haa95532_0
+  patsy                               0.5.3-py311haa95532_0 --> 0.5.6-py311haa95532_0
+  pcre2                                    10.42-h0ff8eda_0 --> 10.42-h0ff8eda_1
+  pillow                             10.2.0-py311h2bbff1b_0 --> 11.0.0-py311h096bfcc_1
+  pip                                23.3.1-py311haa95532_0 --> 24.2-py311haa95532_0
+  pkginfo                             1.9.6-py311haa95532_0 --> 1.11.2-py311haa95532_0
+  plotly                              5.9.0-py311haa95532_0 --> 5.24.1-py311h746a85d_0
+  pluggy                              1.0.0-py311haa95532_1 --> 1.5.0-py311haa95532_0
+  powershell_shortc~                                0.0.1-3 --> 0.0.1-haa95532_4
+  prometheus_client                  0.14.1-py311haa95532_0 --> 0.21.0-py311haa95532_0
+  pybind11-abi                                 4-hd3eb1b0_1 --> 5-hd3eb1b0_0
+  pycodestyle                        2.10.0-py311haa95532_0 --> 2.12.1-py311haa95532_0
+  pycosat                             0.6.6-py311h2bbff1b_0 --> 0.6.6-py311h2bbff1b_1
+  pycurl                             7.45.2-py311he2ea4bf_1 --> 7.45.3-py311h3f729d1_0
+  pydantic                          1.10.12-py311h2bbff1b_1 --> 2.10.3-py311haa95532_0
+  pyerfa                              2.0.0-py311h2bbff1b_0 --> 2.0.1.4-py311h57dcf0c_0
+  pyflakes                            3.0.1-py311haa95532_0 --> 3.2.0-py311haa95532_0
+  pyjwt                               2.4.0-py311haa95532_0 --> 2.9.0-py311haa95532_0
+  pylint                             2.16.2-py311haa95532_0 --> 3.2.7-py311haa95532_0
+  pylint-venv                         2.3.0-py311haa95532_0 --> 3.0.3-py311haa95532_0
+  pyodbc                              5.0.1-py311hd77b12b_0 --> 5.1.0-py311h5da7b33_0
+  pyopenssl                          24.0.0-py311haa95532_0 --> 24.2.1-py311haa95532_0
+  pyparsing                           3.0.9-py311haa95532_0 --> 3.2.0-py311haa95532_0
+  pytables                            3.9.2-py311h91a9f6a_0 --> 3.10.1-py311hddc5ca2_0
+  pytest                              7.4.0-py311haa95532_0 --> 7.4.4-py311haa95532_0
+  python-dateutil    pkgs/main/noarch::python-dateutil-2.8~ --> pkgs/main/win-64::python-dateutil-2.9.0post0-py311haa95
+  python-fastjsonsc~                 2.16.2-py311haa95532_0 --> 2.20.0-py311haa95532_0
+  python-json-logger                  2.0.7-py311haa95532_0 --> 3.2.1-py311haa95532_0
+  python-libarchive~                       2.9-pyhd3eb1b0_1 --> 5.1-pyhd3eb1b0_0
+  python-lsp-black                    1.2.1-py311haa95532_0 --> 2.0.0-py311haa95532_0
+  python-lsp-jsonrpc                     1.0.0-pyhd3eb1b0_0 --> 1.1.2-pyhd3eb1b0_0
+  python-lsp-server                   1.7.2-py311haa95532_0 --> 1.12.0-py311h746a85d_0
+  pytz                         2023.3.post1-py311haa95532_0 --> 2024.1-py311haa95532_0
+  pyviz_comms                         3.0.0-py311haa95532_0 --> 3.0.2-py311haa95532_0
+  pywavelets                          1.5.0-py311hd7041d2_0 --> 1.7.0-py311h827c3e9_0
+  pywin32-ctypes                   0.2.0-py311haa95532_1000 --> 0.2.2-py311haa95532_0
+  pywinpty                           2.0.10-py311h5da7b33_0 --> 2.0.14-py311h72d21ff_0
+  pyyaml                              6.0.1-py311h2bbff1b_0 --> 6.0.2-py311h827c3e9_0
+  pyzmq                              25.1.2-py311hd77b12b_0 --> 26.2.0-py311h5da7b33_0
+  qdarkstyle                             3.0.2-pyhd3eb1b0_0 --> 3.2.3-pyhd3eb1b0_0
+  qt-main                                5.15.2-h19c9488_10 --> 5.15.2-h19c9488_11
+  qtawesome                           1.2.2-py311haa95532_0 --> 1.3.1-py311haa95532_0
+  qtconsole                           5.4.2-py311haa95532_0 --> 5.6.0-py311haa95532_0
+  regex                           2023.10.3-py311h2bbff1b_0 --> 2024.9.11-py311h827c3e9_0
+  reproc                                  14.2.4-hd77b12b_1 --> 14.2.4-hd77b12b_2
+  reproc-cpp                              14.2.4-hd77b12b_1 --> 14.2.4-hd77b12b_2
+  requests                           2.31.0-py311haa95532_1 --> 2.32.3-py311haa95532_1
+  rich                               13.3.5-py311haa95532_0 --> 13.9.4-py311haa95532_0
+  rope                                1.7.0-py311haa95532_0 --> 1.12.0-py311haa95532_0
+  rpds-py                            0.10.6-py311h062c2fa_0 --> 0.10.6-py311h636fa0f_1
+  ruamel.yaml                       0.17.21-py311h2bbff1b_0 --> 0.18.6-py311h827c3e9_0
+  s3fs                            2023.10.0-py311haa95532_0 --> 2024.6.1-py311haa95532_0
+  scikit-image                       0.22.0-py311hb4ba03d_0 --> 0.24.0-py311hea22821_0
+  scipy                              1.11.4-py311hc1ccb85_0 --> 1.13.1-py311h9f229c6_1
+  scrapy                              2.8.0-py311haa95532_0 --> 2.12.0-py311haa95532_0
+  seaborn                            0.12.2-py311haa95532_0 --> 0.13.2-py311haa95532_0
+  semver             pkgs/main/noarch::semver-2.13.0-pyhd3~ --> pkgs/main/win-64::semver-3.0.2-py311haa95532_0
+  setuptools                         68.2.2-py311haa95532_0 --> 75.1.0-py311haa95532_0
+  snappy                                  1.1.10-h6c2663c_1 --> 1.2.1-hcdb6601_0
+  sphinx                              5.0.2-py311haa95532_0 --> 7.3.7-py311h827c3e9_0
+  sphinxcontrib-ser~ pkgs/main/noarch::sphinxcontrib-seria~ --> pkgs/main/win-64::sphinxcontrib-serializinghtml-1.1.10-
+  spyder                              5.4.3-py311haa95532_1 --> 6.0.1-py311haa95532_0
+  spyder-kernels                      2.4.4-py311haa95532_0 --> 3.0.0-py311h746a85d_0
+  sqlalchemy                         2.0.25-py311h2bbff1b_0 --> 2.0.34-py311h54f65d0_0
+  sqlite                                  3.41.2-h2bbff1b_0 --> 3.45.3-h2bbff1b_0
+  statsmodels                        0.14.0-py311hd7041d2_0 --> 0.14.4-py311h827c3e9_0
+  sympy                                1.12-py311haa95532_0 --> 1.13.3-py311haa95532_0
+  tenacity                            8.2.2-py311haa95532_0 --> 9.0.0-py311haa95532_0
+  textdistance       pkgs/main/noarch::textdistance-4.2.1-~ --> pkgs/main/win-64::textdistance-4.6.3-py311h746a85d_0
+  tifffile                        2023.4.12-py311haa95532_0 --> 2024.12.12-py311haa95532_0
+  tk                                      8.6.12-h2bbff1b_0 --> 8.6.14-h0416ee5_0
+  tldextract         pkgs/main/noarch::tldextract-3.2.0-py~ --> pkgs/main/win-64::tldextract-5.1.2-py311haa95532_0
+  tomlkit                            0.11.1-py311haa95532_0 --> 0.13.2-py311haa95532_0
+  tornado                             6.3.3-py311h2bbff1b_0 --> 6.4.2-py311h827c3e9_0
+  tqdm                               4.65.0-py311h746a85d_0 --> 4.66.5-py311h746a85d_0
+  traitlets                           5.7.1-py311haa95532_0 --> 5.14.3-py311haa95532_0
+  typing-extensions                   4.9.0-py311haa95532_1 --> 4.12.2-py311haa95532_0
+  typing_extensions                   4.9.0-py311haa95532_1 --> 4.12.2-py311haa95532_0
+  tzdata                                   2023d-h04d1e81_0 --> 2024b-h04d1e81_0
+  tzlocal                               2.1-py311haa95532_1 --> 5.2-py311haa95532_0
+  ujson                               5.4.0-py311hd77b12b_0 --> 5.10.0-py311h5da7b33_0
+  unidecode          pkgs/main/noarch::unidecode-1.2.0-pyh~ --> pkgs/main/win-64::unidecode-1.3.8-py311haa95532_0
+  urllib3                             2.0.7-py311haa95532_0 --> 2.2.3-py311haa95532_0
+  watchdog                            2.1.6-py311haa95532_0 --> 4.0.1-py311haa95532_0
+  websocket-client                   0.58.0-py311haa95532_4 --> 1.8.0-py311haa95532_0
+  werkzeug                            2.2.3-py311haa95532_0 --> 3.0.6-py311haa95532_0
+  wheel                              0.41.2-py311haa95532_0 --> 0.44.0-py311haa95532_0
+  widgetsnbextension                  3.5.2-py311haa95532_1 --> 4.0.13-py311haa95532_0
+  xarray                           2023.6.0-py311haa95532_0 --> 2024.11.0-py311haa95532_0
+  xlwings                            0.29.1-py311haa95532_0 --> 0.32.1-py311haa95532_0
+  xz                                       5.4.5-h8cc25b3_0 --> 5.4.6-h8cc25b3_1
+  yaml-cpp                                 0.8.0-hd77b12b_0 --> 0.8.0-hd77b12b_1
+  yapf               pkgs/main/noarch::yapf-0.31.0-pyhd3eb~ --> pkgs/main/win-64::yapf-0.40.2-py311haa95532_0
+  yarl                                1.9.3-py311h2bbff1b_0 --> 1.18.0-py311h827c3e9_0
+  zipp                               3.17.0-py311haa95532_0 --> 3.21.0-py311haa95532_0
+  zlib                                    1.2.13-h8cc25b3_0 --> 1.2.13-h8cc25b3_1
+  zope.interface                      5.4.0-py311h2bbff1b_0 --> 7.1.1-py311h827c3e9_0
+  zstandard                          0.19.0-py311h2bbff1b_0 --> 0.23.0-py311h4fc1ca9_1
+  zstd                                     1.5.5-hd43e919_0 --> 1.5.6-h8880b57_0
+
+The following packages will be DOWNGRADED:
+
+  pydeck                              0.8.0-py311haa95532_2 --> 0.7.1-py311haa95532_0
+  streamlit                          1.30.0-py311haa95532_0 --> 1.16.0-py311haa95532_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: - WARNING conda.gateways.disk.delete:unlink_or_rename_to_trash(184): Could not remove or rename C:\Users\Admin\anaconda3\Lib\site-pa)
+| Insufficient permissions to write menu folder.  Falling back to user location
+
+| Insufficient permissions to write menu folder.  Falling back to user location
+
+done
+
+(base) C:\Users\Admin>

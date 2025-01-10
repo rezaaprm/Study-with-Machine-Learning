@@ -1,0 +1,51 @@
+id_produk,nama_produk,harga,kategori
+P001,Smartphone X,500000,Elektronik
+P002,Laptop Y,800000,Elektronik
+P003,Headphones Z,200000,Elektronik
+P004,Smartwatch A,300000,Elektronik
+P005,Kamera B,1000000,Elektronik
+P006,Tablet C,700000,Elektronik
+P007,Speaker D,250000,Elektronik
+P008,Mouse E,50000,Perlengkapan Komputer
+P009,Keyboard F,100000,Perlengkapan Komputer
+P010,Monitor G,1500000,Perlengkapan Komputer
+P011,Printer H,2000000,Perlengkapan Komputer
+P012,Router I,300000,Perlengkapan Komputer
+P013,Buku J,50000,Buku
+P014,Novel K,75000,Buku
+P015,Majalah L,25000,Buku
+P016,Pakaian M,100000,Pakaian
+P017,Sepatu N,200000,Pakaian
+P018,Tas O,300000,Pakaian
+P019,Jam Tangan P,500000,Aksesoris
+P020,Kalung Q,100000,Aksesoris
+P021,Cincin R,200000,Aksesoris
+P022,Anting-anting S,50000,Aksesoris
+P023,Gelang T,75000,Aksesoris
+P024,Dompet U,100000,Aksesoris
+P025,Kacamata V,200000,Aksesoris
+P026,Parfum W,300000,Kosmetik
+P027,Lipstik X,50000,Kosmetik
+P028,Bedak Y,100000,Kosmetik
+P029,Maskara Z,75000,Kosmetik
+P030,Krim AA,200000,Kosmetik
+P031,Shampoo BB,100000,Perawatan Diri
+P032,Sabun CC,50000,Perawatan Diri
+P033,Sikat Gigi DD,20000,Perawatan Diri
+P034,Pasta Gigi EE,30000,Perawatan Diri
+P035,Sampo FF,50000,Perawatan Diri
+P036,Sabun Cuci GG,25000,Perawatan Diri
+P037,Sikat Rambut HH,30000,Perawatan Diri
+P038,Sisir II,15000,Perawatan Diri
+P039,Hand Sanitizer JJ,20000,Perawatan Diri
+P040,Masker KK,30000,Perawatan Diri
+P041,Vitamin LL,50000,Kesehatan
+P042,Suplemen MM,100000,Kesehatan
+P043,Obat NN,200000,Kesehatan
+P044,Perban OO,50000,Kesehatan
+P045,Plester PP,25000,Kesehatan
+P046,Termometer QQ,50000,Kesehatan
+P047,Stetoskop RR,200000,Kesehatan
+P048,Gunting SS,50000,Peralatan Rumah Tangga
+P049,Pisau TT,75000,Peralatan Rumah Tangga
+P050,Piring UU,100000,Peralatan Rumah Tangga
