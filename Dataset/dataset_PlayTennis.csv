@@ -1,15 +1,3 @@
-outlook,temp,humidity,windy,play
-sunny,hot,high,false,no
-sunny,hot,high,true,no
-overcast,hot,high,false,yes
-rainy,mild,high,false,yes
-rainy,cool,normal,false,yes
-rainy,cool,normal,true,no
-overcast,cool,normal,true,yes
-sunny,mild,high,false,no
-sunny,cool,normal,false,yes
-rainy,mild,normal,false,yes
-sunny,mild,normal,true,yes
-overcast,mild,high,true,yes
-overcast,hot,normal,false,yes
-rainy,mild,high,true,no
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa5df67c208d74e8a772829190019f5dfb2863ffe811dc6b437ce0b8879c9bb7
+size 408
